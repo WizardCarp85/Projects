@@ -86,6 +86,7 @@ h2{
     flex-direction: column;
     margin: 0;
     gap: 48px;
+    padding-bottom: 0;
 }
 h5{
     height: 240px;
@@ -106,7 +107,6 @@ h5{
     border: 1px solid #440A8F;
     border-radius: 22px;
     margin: 0;
-    padding: 0;
 }
 .second{
     height: 1191px;
@@ -115,7 +115,7 @@ h5{
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding-bottom: 0;
 }
 .row1{
     height: 429px;
@@ -125,6 +125,7 @@ h5{
     gap: 48px;
     display: flex;
     flex-direction: row;
+    
 }
 .proj{
     width: 416px;
@@ -192,7 +193,7 @@ h5{
 
 
 
-/* Third Container */
+/* Third */
 .container3{
     width: 1344px;
     height: 168px;
