@@ -21,34 +21,13 @@ body{
     padding-right: 48px;
     padding-left: 48px;
 }
-.container2{
-    height: 3001px;
-    width: 1344px;
-    background-color: #ECF6FE;
-    padding-right: 48px;
-    padding-left: 48px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .title{
     height: 48px;
     width: 360px;
     gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1{
     height: 27px;
@@ -65,6 +44,9 @@ h1{
     gap: 32px;
     height: 32px;
     width: 476px;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 h2{
     font-family: Syne;
@@ -77,14 +59,118 @@ h2{
     text-decoration-skip-ink: none;
     color: #381664;
 }
+
+.container2{
+    height: 3001px;
+    width: 1344px;
+    background-color: #ECF6FE;
+    padding: 48px;
+}
+.content{
+    height: 2905px;
+    width: 1344px;
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    height: 1152px;
+    width: 1344px;
+    border-bottom: 1px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    display: flex;
+    flex-direction: column;
+}
+h5{
+    height: 240px;
+    width: 1344px;
+    font-family: Syne;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #381664;
+    margin-bottom: 48px;
+    margin-top: 0;
+}
+.s1{
+    height: 672px;
+    width: 1344px;
+    border: 1px solid #440A8F;
+    border-radius: 22px;
+}
+.second{
+    height: 1191px;
+    width: 1344px;
+    border-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    height: 429px;
+    width: 1344px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+    display: flex;
+    flex-direction: row;
+}
+.proj{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    width: 416px;
+    height: 48px;
+}
+.toph{
+    width: 416px;
+    height: 24px;
+    font-family: Familjen Grotesk;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 20px;
+    color: #381664;
+}
+.bottomh{
+    width: 416px;
+    height: 24px;
+    font-family: Familjen Grotesk;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 17px;
+    color: #381664;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container3{
     width: 1344px;
     height: 168px;
     background-color: #ECF6FE;
-    padding-right: 48px;
-    padding-left: 48px;
+    padding: 96px 48px 24px 48px;
     border-top: 1px;
-    padding-top: 96px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -117,7 +203,6 @@ h3{
     height: 48px;
     border-radius: 8px;
     border: 1px solid #440A8F;
-    padding: 12px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
