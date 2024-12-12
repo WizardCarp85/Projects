@@ -8,6 +8,7 @@ body{
     padding-right: 48px;
     padding-left: 48px;
 }
+/* First Container */
 .container{
     height: 80px;
     width: 1344px;
@@ -20,6 +21,7 @@ body{
     border-bottom: 1px solid #440A8F;
     padding-right: 48px;
     padding-left: 48px;
+    margin: 0;
 }
 .title{
     height: 48px;
@@ -59,18 +61,20 @@ h2{
     text-decoration-skip-ink: none;
     color: #381664;
 }
-
+/* Second Container */
 .container2{
     height: 3001px;
     width: 1344px;
     background-color: #ECF6FE;
     padding: 48px;
+    margin: 0;
 }
 .content{
     height: 2905px;
     width: 1344px;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .first{
     height: 1152px;
@@ -78,9 +82,10 @@ h2{
     border-bottom: 1px;
     padding-top: 96px;
     padding-bottom: 96px;
-
     display: flex;
     flex-direction: column;
+    margin: 0;
+    gap: 48px;
 }
 h5{
     height: 240px;
@@ -100,6 +105,8 @@ h5{
     width: 1344px;
     border: 1px solid #440A8F;
     border-radius: 22px;
+    margin: 0;
+    padding: 0;
 }
 .second{
     height: 1191px;
@@ -107,6 +114,8 @@ h5{
     border-bottom: 1px;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 .row1{
     height: 429px;
@@ -136,6 +145,8 @@ h5{
     line-height: 24px;
     font-size: 20px;
     color: #381664;
+    margin: 0;
+    padding: 0;
 }
 .bottomh{
     width: 416px;
@@ -145,6 +156,23 @@ h5{
     line-height: 24px;
     font-size: 17px;
     color: #381664;
+    margin: 0;
+    padding: 0;
+}
+.row2,.row3{
+    width: 1344px;
+    height: 381px;
+    padding-bottom: 48px;
+    gap: 48px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.midimg{
+    width: 416px;
+    height: 277px;
+    border: 1px solid #440A8F;
+    margin: 0;
 }
 
 
@@ -164,7 +192,7 @@ h5{
 
 
 
-
+/* Third Container */
 .container3{
     width: 1344px;
     height: 168px;
@@ -175,6 +203,7 @@ h5{
     flex-direction: column;
     justify-content: space-between;
     gap: 24px;
+    margin: 0;
 }
 .foot{
     height: 48px;
