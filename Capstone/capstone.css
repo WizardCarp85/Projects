@@ -310,7 +310,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: filter 0.3s ease;
+    transition: filter 0.8s ease;
 }
 h4{
     width: 86px;
@@ -347,6 +347,7 @@ h4:hover{
 }
 .f2:hover{
     background-color: lightskyblue;
+    transform: scale(1.2);
 }
 h1:hover{
     cursor: pointer;
