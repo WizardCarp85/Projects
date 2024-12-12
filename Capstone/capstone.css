@@ -61,6 +61,7 @@ h2{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #381664;
+    transition: filter 0.3s ease;
 }
 /* Second Container */
 .container2{
@@ -149,6 +150,7 @@ h5{
     color: #381664;
     margin: 0;
     padding: 0;
+    transition: filter 0.3s ease;
 }
 .bottomh{
     width: 416px;
@@ -160,6 +162,7 @@ h5{
     color: #381664;
     margin: 0;
     padding: 0;
+    transition: filter 0.3s ease;
 }
 .row2,.row3{
     width: 1344px;
@@ -175,6 +178,7 @@ h5{
     height: 277px;
     border: 1px solid #440A8F;
     margin: 0;
+    transition: filter 0.8s ease;
 }
 .third{
     height: 250px;
@@ -263,24 +267,6 @@ h5{
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Third */
 .container3{
     width: 1344px;
@@ -324,6 +310,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: filter 0.3s ease;
 }
 h4{
     width: 86px;
@@ -333,4 +320,35 @@ h4{
     font-size: 20px;
     line-height: 24px;
     color: #381664;
+    transition: filter 0.3s ease;
+}
+/* Extras */
+.midimg:hover{
+    cursor: pointer;
+    filter: brightness(0.7);
+    border-radius: 20px;
+}
+.toph:hover{
+    cursor: pointer;
+    font-weight: 900;
+    filter: saturate(5);
+}
+h2:hover{
+    cursor: pointer;
+    font-weight: 600;
+    filter: saturate(2.7);
+    background-color: rgb(84, 210, 210);
+    padding: 8px;
+    border-radius: 10px;
+}
+h4:hover{
+    cursor: pointer;
+    filter: saturate(3);
+}
+.f2:hover{
+    background-color: lightskyblue;
+}
+h1:hover{
+    cursor: pointer;
+    filter: brightness(1.4);
 }
