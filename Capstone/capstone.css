@@ -1,13 +1,13 @@
 body{
     width: 1440px;
     height: 3249px;
-    min-height: 900px;
     background-color: black;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding-right: 48px;
     padding-left: 48px;
+    transition: transform 0.3s ease;
 }
 /* First Container */
 .container{
@@ -23,6 +23,7 @@ body{
     padding-right: 48px;
     padding-left: 48px;
     margin: 0;
+    transition: transform 0.3s ease;
 }
 .title{
     height: 48px;
@@ -70,6 +71,7 @@ h2{
     background-color: #ECF6FE;
     padding: 48px;
     margin: 0;
+    transition: transform 0.3s ease;
 }
 .content{
     height: 2905px;
@@ -88,7 +90,6 @@ h2{
     flex-direction: column;
     margin: 0;
     gap: 48px;
-    padding-bottom: 0;
 }
 h5{
     height: 240px;
@@ -279,6 +280,7 @@ h5{
     justify-content: space-between;
     gap: 24px;
     margin: 0;
+    transition: transform 0.3s ease;
 }
 .foot{
     height: 48px;
@@ -352,4 +354,118 @@ h4:hover{
 h1:hover{
     cursor: pointer;
     filter: brightness(1.4);
+}
+@media (max-width: 768px){
+    body{
+            width: 768px;
+            padding-left: 12px;
+            padding-right: 12px;
+    }
+    .container,.container2,.content,.container3{
+        width: 700px;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: auto;
+    }
+    h1{
+        font-size: 29px;
+    }
+    .title{
+        padding-right: 80px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .first{
+        width: 700px;
+        padding: 0;
+        gap: 0px;
+        height: 580px;
+    }
+    h5{
+        width: 700px;
+        font-size: 60px;
+        padding: 0;
+        line-height: 72px;
+        margin: 0;
+        height: 160px;
+    }
+    .container{
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    .container2{
+        height: 4300px;
+    }
+    .content{
+        height: 4300px;
+    }
+    .s1{
+        width: 678px;
+        height: auto;
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .second{
+        width: 700px;
+        padding: 35px 0 0 0;
+        margin: 0;
+        gap: 0;
+        height: 4300px;
+    }
+    .row1,.row2,.row3{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        align-items: center;
+    }
+    .third{
+        width: 700px;
+        display: flex;
+        align-items: center;
+        padding: 30px 0 0 0;
+        height: 400px;
+    }
+    .space{
+        display: none;
+    }
+    .para{
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+    }
+    .fourth{
+        width: 700px;
+    }
+    .tophead{
+        width: 700px;
+        text-align: center;
+        font-size: 32px;
+    }
+    .bothead{
+        width: 700px;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+    .fourtext{
+        width: 150px;
+    }
+    .bot1,.bot2,.bot3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot{
+        width: 700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
