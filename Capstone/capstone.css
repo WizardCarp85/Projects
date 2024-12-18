@@ -133,7 +133,6 @@ h5{
     gap: 48px;
     display: flex;
     flex-direction: row;
-    
 }
 .proj{
     width: 416px;
@@ -143,12 +142,15 @@ h5{
     flex-direction: column;
 }
 img{
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 20px 40px rgba(0, 0, 0, 0.15);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4), 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
 }
 img:hover {
-    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4), 0 30px 60px rgba(0, 0, 0, 0.2);
-    transform: translateY(-12px) translateX(-5px);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.7), 0 30px 60px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px) translateX(9px);
+    cursor: pointer;
+    filter: saturate(1.5);
+    border-radius: 20px;
 }
 .text{
     width: 416px;
@@ -164,7 +166,13 @@ img:hover {
     color: #381664;
     margin: 0;
     padding: 0;
-    transition: filter 0.3s ease;
+    transition: transform 0.3s ease;
+}
+.toph:hover{
+    cursor: pointer;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateX(8px);
 }
 .bottomh{
     width: 416px;
@@ -176,7 +184,7 @@ img:hover {
     color: #381664;
     margin: 0;
     padding: 0;
-    transition: filter 0.3s ease;
+    transition: transform 0.3s ease;
 }
 .row2,.row3{
     width: 1344px;
@@ -223,11 +231,12 @@ img:hover {
 }
 .parahead:hover{
     filter: saturate(2);
-    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4), 0 30px 60px rgba(0, 0, 0, 0.2);
-    transform: translateY(2px);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateX(-12px);
     border-radius: 10px;
     padding: 0 3px 0 3px;
     margin: 0;
+    
 }
 .fourth{
     height: 312px;
@@ -257,6 +266,9 @@ img:hover {
 }
 .tophead:hover{
     filter: saturate(3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(-6px);
+    font-weight: 720;
 }
 .bothead{
     width: 900px;
@@ -300,8 +312,8 @@ img:hover {
 }
 .fourtext:hover{
     font-weight: 500;
-    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4), 0 30px 60px rgba(0, 0, 0, 0.2);
-    transform: translateX(-6px);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateX(8px);
     border-radius: 5px;
 }
 
@@ -364,24 +376,15 @@ h4{
     font-size: 20px;
     line-height: 24px;
     color: #381664;
-    transition: filter 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
 }
 /* Extras */
-.midimg:hover{
-    cursor: pointer;
-    filter: brightness(1.2);
-    border-radius: 20px;
-}
-.toph:hover{
-    cursor: pointer;
-    font-weight: 900;
-    filter: saturate(5);
-}
 h1:hover{
     cursor: pointer;
     filter: brightness(1.4);
 }
-@media (max-width: 768px){
+@media screen and (max-width: 768px) and (orientation: portrait){
     body{
             width: 768px;
             padding-left: 12px;
