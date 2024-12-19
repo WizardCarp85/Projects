@@ -205,7 +205,6 @@ img:hover {
     height: 277px;
     border: 1px solid #440A8F;
     margin: 0;
-    transition: filter 0.8s ease;
 }
 .third{
     height: 250px;
@@ -385,11 +384,33 @@ h4{
     transition: transform 0.3s ease;
 }
 /* Extras */
+/* Some got shifted upwards */
 h1:hover{
     cursor: pointer;
     filter: brightness(1.4);
 }
-@media screen and (max-width: 768px) and (orientation: portrait){
+.midimg:hover{
+    animation: image 1.5s ease-in;
+    animation-timing-function: linear;
+}
+@keyframes image {
+    0%{
+        transform: rotate(0deg) scale(1);
+    }
+    25%{
+        transform: rotate(7deg) scale(1.07);
+    }
+    50%{
+        transform: rotate(0deg) scale(1);
+    }
+    75%{
+        transform: rotate(-7deg)  scale(1.07);
+    }
+    100%{
+        transform: rotate(0deg) scale(1);
+    }
+}
+@media screen and (max-width: 768px){
     body{
             width: 768px;
             padding-left: 12px;
