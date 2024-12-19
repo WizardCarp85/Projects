@@ -60,7 +60,7 @@ h2{
     text-decoration-skip-ink: none;
     color: #381664;
     text-shadow: 3px 3px 4px rgba(56,22,100,0.66);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
 }
 h2:hover{
     cursor: pointer;
@@ -78,7 +78,7 @@ h2:hover{
     background-color: #ECF6FE;
     padding: 48px;
     margin: 0;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
 }
 .content{
     height: 2905px;
@@ -146,7 +146,7 @@ h5{
 }
 img{
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4), 0 20px 40px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
 }
 img:hover {
     box-shadow: 0 18px 36px rgba(0, 0, 0, 0.7), 0 30px 60px rgba(0, 0, 0, 0.2);
@@ -169,7 +169,7 @@ img:hover {
     color: #381664;
     margin: 0;
     padding: 0;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
     text-shadow: -3px 4px 4px rgba(56,22,100,0.61);
 }
 .toph:hover{
@@ -188,7 +188,7 @@ img:hover {
     color: #381664;
     margin: 0;
     padding: 0;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
     text-shadow: -2px 2px 9px rgba(56,22,100,0.61);
 }
 .row2,.row3{
@@ -228,10 +228,10 @@ img:hover {
     line-height: 32px;
     letter-spacing: -0.5%;
     color: #381664;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
 }
 .parahead{
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
 }
 .parahead:hover{
     filter: saturate(2);
@@ -266,7 +266,7 @@ img:hover {
     color: #381664;
     margin: 0;
     padding: 0;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
 }
 .tophead:hover{
     filter: saturate(3);
@@ -312,7 +312,7 @@ img:hover {
     color: #381664;
     margin: 0;
     padding: 0;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
 }
 .fourtext:hover{
     font-weight: 500;
@@ -333,7 +333,7 @@ img:hover {
     justify-content: space-between;
     gap: 24px;
     margin: 0;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
 }
 .foot{
     height: 48px;
@@ -365,7 +365,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s linear;
     cursor: pointer;
 }
 .f2:hover{
@@ -381,7 +381,7 @@ h4{
     line-height: 24px;
     color: #381664;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s linear;
 }
 /* Extras */
 /* Some got shifted upwards */
